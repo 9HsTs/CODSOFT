@@ -1,0 +1,540 @@
+.email-temp.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+.email-temp .section1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 316px;
+}
+.email-temp .image {
+  position: relative;
+  width: 100%;
+  border-radius: 8px 8px 8px 8px;
+}
+.email-temp .section2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 81px;
+}
+.email-temp .hero_title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font: 400 64px/1.28 "Abel", Helvetica, Arial, serif;
+  color: black;
+  text-align: center;
+  letter-spacing: -1.28px;
+}
+.email-temp .discountSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.email-temp .couponButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px auto 0px;
+  width: 491px;
+  font: 400 24px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #828282;
+  text-align: center;
+  background-color: #d9d9d9;
+  padding: 0.5px 8px 0.5px 8px;
+}
+.email-temp .productsSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.email-temp .flexRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 10px;
+  margin: 1px auto 0px;
+  width: 85.48%;
+  max-width: 529.96875px;
+  padding: 0px 7px 0px 0px;
+}
+@media (max-width: 383px) {
+  .email-temp .flexRow {
+    flex-direction: column;
+    gap: 30px 8px;
+  }
+}
+.email-temp .flexColumn {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 58px 0px;
+  width: 216px;
+  min-width: 0px;
+}
+@media (max-width: 383px) {
+  .email-temp .flexColumn {
+    gap: 50px 0px;
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.email-temp .productContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.email-temp .productImage1 {
+  position: relative;
+  width: 100%;
+  border-radius: 8px 8px 8px 8px;
+  outline: 5px solid #ec8f38;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.email-temp .productTitle1 {
+  position: relative;
+  margin: 10px 0px 0px;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .email-temp .productTitle1 {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.email-temp .productCategory1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 4px 0px 0px;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #828282;
+}
+@media (max-width: 479px) {
+  .email-temp .productCategory1 {
+    font-size: 16px;
+  }
+}
+.email-temp .productPrice1 {
+  position: relative;
+  margin: 4px 0px 0px;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .email-temp .productPrice1 {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.email-temp .productImage2 {
+  position: relative;
+  width: 100%;
+  border-radius: 8px 8px 8px 8px;
+  outline: 5px solid #ec8f38;
+  outline-offset: -5px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.email-temp .productTitle2 {
+  position: relative;
+  margin: 1px 4px 0px 0px;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .email-temp .productTitle2 {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.email-temp .productCategory2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 4px 0px 0px;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #828282;
+}
+@media (max-width: 479px) {
+  .email-temp .productCategory2 {
+    font-size: 16px;
+  }
+}
+.email-temp .productPrice2 {
+  position: relative;
+  margin: 4px 0px 0px;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .email-temp .productPrice2 {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.email-temp .flexColumn2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 51px 0px;
+  width: 216px;
+  min-width: 0px;
+}
+@media (max-width: 383px) {
+  .email-temp .flexColumn2 {
+    gap: 50px 0px;
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.email-temp .productImage3 {
+  position: relative;
+  width: 100%;
+  border-radius: 8px 8px 8px 8px;
+  outline: 5px solid #ec8f38;
+  outline-offset: -5px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.email-temp .productTitle3 {
+  position: relative;
+  margin: 8px 0px 0px;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .email-temp .productTitle3 {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.email-temp .productImage4 {
+  position: relative;
+  width: 100%;
+  border-radius: 8px 8px 8px 8px;
+  outline: 5px solid #ec8f38;
+  outline-offset: -5px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.email-temp .productTitle4 {
+  position: relative;
+  margin: 1px 0px 0px;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .email-temp .productTitle4 {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.email-temp .productCategory3 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 4px 0px 0px;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #828282;
+}
+@media (max-width: 479px) {
+  .email-temp .productCategory3 {
+    font-size: 16px;
+  }
+}
+.email-temp .productPrice3 {
+  position: relative;
+  margin: 4px 0px 0px;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .email-temp .productPrice3 {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.email-temp .shoppingBagSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.email-temp .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px 0px;
+  margin: 40px 37px 48px 35px;
+  max-width: 548px;
+}
+@media (max-width: 575px) {
+  .email-temp .container {
+    margin: 40px 16px 48px;
+  }
+}
+@media (max-width: 383px) {
+  .email-temp .container {
+    margin: 40px 8px 48px;
+  }
+}
+.email-temp .notificationMessage {
+  position: relative;
+  width: 99.64%;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: white;
+  background-color: #ec8f38;
+  padding: 0px 40px 2px 35px;
+}
+@media (max-width: 575px) {
+  .email-temp .notificationMessage {
+    padding: 0px 16px 2px 16px;
+  }
+}
+@media (max-width: 479px) {
+  .email-temp .notificationMessage {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+@media (max-width: 383px) {
+  .email-temp .notificationMessage {
+    padding: 0px 8px 2px 8px;
+  }
+}
+.email-temp .productRow {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px 10px;
+  width: 92.7%;
+}
+@media (max-width: 479px) {
+  .email-temp .productRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 10px;
+  }
+}
+.email-temp .productImage {
+  position: relative;
+  width: 237px;
+  min-width: 0px;
+  border-radius: 8px 8px 8px 8px;
+  outline: 5px solid #ec8f38;
+  outline-offset: -5px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 479px) {
+  .email-temp .productImage {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+    max-width: 237px;
+  }
+}
+.email-temp .productDetails {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 217px;
+  min-width: 0px;
+}
+@media (max-width: 479px) {
+  .email-temp .productDetails {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.email-temp .productTitle {
+  position: relative;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .email-temp .productTitle {
+    align-items: flex-start;
+    font-size: 16px;
+  }
+}
+.email-temp .productDescription {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 4px 0px 0px;
+  width: 99.54%;
+  font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #828282;
+}
+@media (max-width: 479px) {
+  .email-temp .productDescription {
+    font-size: 16px;
+  }
+}
+.email-temp .ctaButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 17px 4px 0px 0px;
+  width: 213px;
+  max-width: 100%;
+  font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #f7f7f7;
+  text-align: center;
+  background-color: #ec8f38;
+  border-radius: 8px 8px 8px 8px;
+  padding: 26.5px 8px 26.5px 8px;
+}
+.email-temp .storeInfoSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/cover no-repeat;
+}
+.email-temp .storeDetailsRow {
+  position: relative;
+  display: flex;
+  gap: 0px 17px;
+  margin: 21px 0px 11px auto;
+  width: 90.81%;
+  max-width: 563.0208740234px;
+}
+@media (max-width: 575px) {
+  .email-temp .storeDetailsRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px 16px;
+  }
+}
+.email-temp .storeInfoCol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 38px 0px;
+  margin: 63.5px 0px 24px;
+  width: 217px;
+  min-width: 0px;
+}
+@media (max-width: 575px) {
+  .email-temp .storeInfoCol {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.email-temp .storeTitle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font: 500 19px/1.5 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+@media (max-width: 479px) {
+  .email-temp .storeTitle {
+    font-size: 16px;
+  }
+}
+.email-temp .socialIconsRow {
+  position: relative;
+  display: flex;
+  gap: 0px 8px;
+  margin: 0px 3px;
+}
+.email-temp .socialIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px 4px 4px 4px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.email-temp .storeLinksCol {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 128px;
+  min-width: 0px;
+}
+@media (max-width: 575px) {
+  .email-temp .storeLinksCol {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+  }
+}
+.email-temp .aboutUsLink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.email-temp .termsConditionsLink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 24px 0px 0px;
+  width: 100%;
+  font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #454545;
+}
+.email-temp .privacyPoliciesLink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 24px 0px 0px;
+  font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #454545;
+}
+.email-temp .contactUsLink {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 27px 0px 0px;
+  width: 100%;
+  font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+  color: #454545;
+}
+.email-temp .storeImage {
+  position: relative;
+  margin: 3px 0px 0px;
+  width: 183px;
+  min-width: 0px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+@media (max-width: 575px) {
+  .email-temp .storeImage {
+    margin-top: unset;
+    margin-bottom: unset;
+    width: 100%;
+    min-width: unset;
+    max-width: 183px;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+}

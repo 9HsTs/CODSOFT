@@ -1,0 +1,481 @@
+@use "utils" as *;
+@use "global" as *;
+
+.email-temp {
+  &.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+  }
+  .section1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 316px;
+  }
+  .image {
+    position: relative;
+    width: 100%;
+    border-radius: 8px 8px 8px 8px;
+  }
+  .section2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 81px;
+  }
+  .hero_title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font: 400 64px/1.28 "Abel", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    letter-spacing: -1.28px;
+  }
+  .discountSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .couponButton {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px auto 0px;
+    width: 491px;
+    font: 400 24px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(130, 130, 130);
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    padding: 0.5px 8px 0.5px 8px;
+  }
+  .productsSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .flexRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px 10px;
+    margin: 1px auto 0px;
+    width: 85.48%;
+    max-width: 529.96875px;
+    padding: 0px 7px 0px 0px;
+    @include tn {
+      flex-direction: column;
+      gap: 30px 8px;
+    }
+  }
+  .flexColumn {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 58px 0px;
+    width: 216px;
+    min-width: 0px;
+    @include tn {
+      gap: 50px 0px;
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  .productContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .productImage1 {
+    position: relative;
+    width: 100%;
+    border-radius: 8px 8px 8px 8px;
+    outline: 5px solid rgb(236, 143, 56);
+    object-fit: cover;
+  }
+  .productTitle1 {
+    position: relative;
+    margin: 10px 0px 0px;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      align-items: flex-start;
+      font-size: 16px;
+    }
+  }
+  .productCategory1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 4px 0px 0px;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(130, 130, 130);
+    @include xxs {
+      font-size: 16px;
+    }
+  }
+  .productPrice1 {
+    position: relative;
+    margin: 4px 0px 0px;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      align-items: flex-start;
+      font-size: 16px;
+    }
+  }
+  .productImage2 {
+    position: relative;
+    width: 100%;
+    border-radius: 8px 8px 8px 8px;
+    outline: 5px solid rgb(236, 143, 56);
+    outline-offset: -5px;
+    object-fit: cover;
+  }
+  .productTitle2 {
+    position: relative;
+    margin: 1px 4px 0px 0px;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      align-items: flex-start;
+      font-size: 16px;
+    }
+  }
+  .productCategory2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 4px 0px 0px;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(130, 130, 130);
+    @include xxs {
+      font-size: 16px;
+    }
+  }
+  .productPrice2 {
+    position: relative;
+    margin: 4px 0px 0px;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      align-items: flex-start;
+      font-size: 16px;
+    }
+  }
+  .flexColumn2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 51px 0px;
+    width: 216px;
+    min-width: 0px;
+    @include tn {
+      gap: 50px 0px;
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  .productImage3 {
+    position: relative;
+    width: 100%;
+    border-radius: 8px 8px 8px 8px;
+    outline: 5px solid rgb(236, 143, 56);
+    outline-offset: -5px;
+    object-fit: cover;
+  }
+  .productTitle3 {
+    position: relative;
+    margin: 8px 0px 0px;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      align-items: flex-start;
+      font-size: 16px;
+    }
+  }
+  .productImage4 {
+    position: relative;
+    width: 100%;
+    border-radius: 8px 8px 8px 8px;
+    outline: 5px solid rgb(236, 143, 56);
+    outline-offset: -5px;
+    object-fit: cover;
+  }
+  .productTitle4 {
+    position: relative;
+    margin: 1px 0px 0px;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      align-items: flex-start;
+      font-size: 16px;
+    }
+  }
+  .productCategory3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 4px 0px 0px;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(130, 130, 130);
+    @include xxs {
+      font-size: 16px;
+    }
+  }
+  .productPrice3 {
+    position: relative;
+    margin: 4px 0px 0px;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      align-items: flex-start;
+      font-size: 16px;
+    }
+  }
+  .shoppingBagSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px 0px;
+    margin: 40px 37px 48px 35px;
+    max-width: 548px;
+    @include xs {
+      margin: 40px 16px 48px;
+    }
+    @include tn {
+      margin: 40px 8px 48px;
+    }
+  }
+  .notificationMessage {
+    position: relative;
+    width: 99.64%;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(236, 143, 56);
+    padding: 0px 40px 2px 35px;
+    @include xs {
+      padding: 0px 16px 2px 16px;
+    }
+    @include xxs {
+      align-items: flex-start;
+      font-size: 16px;
+    }
+    @include tn {
+      padding: 0px 8px 2px 8px;
+    }
+  }
+  .productRow {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 10px;
+    width: 92.7%;
+    @include xxs {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px 10px;
+    }
+  }
+  .productImage {
+    position: relative;
+    width: 237px;
+    min-width: 0px;
+    border-radius: 8px 8px 8px 8px;
+    outline: 5px solid rgb(236, 143, 56);
+    outline-offset: -5px;
+    object-fit: cover;
+    @include xxs {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+      max-width: 237px;
+    }
+  }
+  .productDetails {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 217px;
+    min-width: 0px;
+    @include xxs {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  .productTitle {
+    position: relative;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      align-items: flex-start;
+      font-size: 16px;
+    }
+  }
+  .productDescription {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 4px 0px 0px;
+    width: 99.54%;
+    font: 500 20px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(130, 130, 130);
+    @include xxs {
+      font-size: 16px;
+    }
+  }
+  .ctaButton {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px 4px 0px 0px;
+    width: 213px;
+    max-width: 100%;
+    font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    background-color: rgb(236, 143, 56);
+    border-radius: 8px 8px 8px 8px;
+    padding: 26.5px 8px 26.5px 8px;
+  }
+  .storeInfoSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--src) center center / cover no-repeat;
+  }
+  .storeDetailsRow {
+    position: relative;
+    display: flex;
+    gap: 0px 17px;
+    margin: 21px 0px 11px auto;
+    width: 90.81%;
+    max-width: 563.0208740234375px;
+    @include xs {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px 16px;
+    }
+  }
+  .storeInfoCol {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 38px 0px;
+    margin: 63.5px 0px 24px;
+    width: 217px;
+    min-width: 0px;
+    @include xs {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  .storeTitle {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font: 500 19px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+    @include xxs {
+      font-size: 16px;
+    }
+  }
+  .socialIconsRow {
+    position: relative;
+    display: flex;
+    gap: 0px 8px;
+    margin: 0px 3px;
+  }
+  .socialIcon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px 4px 4px 4px;
+    object-fit: cover;
+  }
+  .storeLinksCol {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 128px;
+    min-width: 0px;
+    @include xs {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+    }
+  }
+  .aboutUsLink {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(0, 0, 0);
+  }
+  .termsConditionsLink {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 24px 0px 0px;
+    width: 100%;
+    font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(69, 69, 69);
+  }
+  .privacyPoliciesLink {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 24px 0px 0px;
+    font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(69, 69, 69);
+  }
+  .contactUsLink {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 27px 0px 0px;
+    width: 100%;
+    font: 500 16px/1.5 "Inter", Helvetica, Arial, serif;
+    color: rgb(69, 69, 69);
+  }
+  .storeImage {
+    position: relative;
+    margin: 3px 0px 0px;
+    width: 183px;
+    min-width: 0px;
+    object-fit: cover;
+    @include xs {
+      margin-top: unset;
+      margin-bottom: unset;
+      width: 100%;
+      min-width: unset;
+      max-width: 183px;
+      object-fit: fill;
+    }
+  }
+}
